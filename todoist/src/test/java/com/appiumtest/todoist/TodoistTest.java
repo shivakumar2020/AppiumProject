@@ -45,7 +45,7 @@ public class TodoistTest {
 	      try {
 			 driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),dc);
 		} catch (MalformedURLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
