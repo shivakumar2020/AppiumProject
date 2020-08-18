@@ -49,7 +49,7 @@ public class TodoistTest {
 			e.printStackTrace();
 		}
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
+		    
 	}
   
 
